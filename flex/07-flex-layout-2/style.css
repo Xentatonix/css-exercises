@@ -27,3 +27,35 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex: 1;
+  display: flex;
+}
+
+.cards-sec {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.card{
+  flex-basis: 17.5vw;
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
